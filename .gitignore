@@ -1,0 +1,7 @@
+.DS_STORE
+*.pyc
+*.bin
+Precomputations/Bases
+Precomputations/Bases2
+*conflicted copy*
+ifem/

@@ -1,0 +1,2 @@
+LIBS += -lginac -lcln
+SRCS += 

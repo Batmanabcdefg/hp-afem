@@ -1,0 +1,6 @@
+*.o
+*.dSYM
+*.swp
+.DS_STORE
+tests/output/*
+!tests/output/.gitignore
