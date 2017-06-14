@@ -5,6 +5,7 @@
 
 #include "config.h"
 
+// TODO: convert this to a namespace instead of a class.
 class Math {
 public:
   static bool almost_equal(scalar x, scalar y, int ulp);

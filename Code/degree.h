@@ -2,11 +2,6 @@
 
 #include "math.h"
 
-/**
- * God fucking damn, TODO!!! I still can't do degree-dimension conversions right.
- *
- */
-
 // TODO: convert this to a namespace rather than a class.
 class Degree {
 public:

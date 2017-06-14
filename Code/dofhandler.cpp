@@ -267,7 +267,6 @@ void DOFHandler::copyToChildren(Element *parent) {
         Dofs nbrrightg = find(nbr->right());
 
         // Have a DOF along this edge?
-        // TODO: why > k and not >= k?
         if (nbrrightg.degree() > k) {
           // If this is -1, our right neighbour will get its DOFs copied in a
           // bit.
@@ -371,7 +370,6 @@ void DOFHandler::increaseBy(Element *parent, int dof) {
 
       // We require k-1 instead of k here because the edge DOFs will otherwise
       // not be given properly.
-      // TODO: what the hell man
       if (k-1 < stopdegree) {
         for (auto edge : parent->edges()) {
           EltEdgePair leafEdge = finder.elementAlongEdge(edge);
